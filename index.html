@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeolandBootcamp-register-form-exercise</title>
+</head>
+<body>
+   <div>
+    <div>
+        <!--Como inserto el logo al lado del titulo?-->
+        <h1>Issuu</h1>        
+    </div>
+    <div>
+        <p>
+            Already a user?
+        </p>
+        <a href="#">Sign in</a>
+    </div>
+   </div>
+   <div>
+    <h2>Create an Issuu Account</h2>
+        <div>
+        <a href="#">Sign in with Google</a>
+        </div>
+        <div>
+        <a href="#">Continue with Facebook</a>
+        </div>
+   </div>
+   <div>
+    <p>or with email</p>
+   </div>
+   <form method="post" action="/register">
+    
+    <fieldset>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+    </fieldset>
+
+    <fieldset>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" placeholder="Password" minlength="11" required>
+    </fieldset>
+<!--IMPORTANTE!: Como creo una caja para aceptar terminos y condiciones?-->
+    <button type="submit">Create Account</button>
+   </form>
+
+</body>
+</html>
